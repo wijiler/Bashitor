@@ -4,10 +4,14 @@
 
 <h1> Installing with cargo </h1>
 '''
+
 cargo install whateverInamethis
 '''
+
 -------------------------------
+
 <h1>Install with yay</h1>
 '''
+
 yay -S whateverinamethis  
 '''
