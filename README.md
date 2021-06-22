@@ -6,6 +6,7 @@
 '''
 
 cargo install whateverInamethis
+
 '''
 
 -------------------------------
@@ -13,5 +14,6 @@ cargo install whateverInamethis
 <h1>Install with yay</h1>
 '''
 
-yay -S whateverinamethis  
+yay -S whateverinamethis
+
 '''
