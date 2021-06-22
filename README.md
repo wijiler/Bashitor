@@ -1,4 +1,4 @@
-<h1 align="center"> ✨ BashEditor ✨ </h1>
+<h1 align="center"> ✨ Bashitor ✨ </h1>
 
 <h3 align="center">A simple yet useful tool for editing your bashrc config file on Arch linux ( may expand in the near future ) </h3>
 
