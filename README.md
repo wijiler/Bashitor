@@ -23,12 +23,6 @@ Basheditor -A -e neofetch
 
 #### The -A adds a new line and the -e sets it at the new line at the end of the file and the neofetch is what is added to the bashrc file 
 
-### Cargo
-```
-
-cargo install whateverInamethis
-
-```
 
 ### Yay/Arch
 
@@ -36,5 +30,14 @@ cargo install whateverInamethis
 ```
 
 yay -S whateverinamethis
+
+```
+
+---------------------------------
+
+### debian/ubuntu (any debian based system)
+```
+
+apt-get whateverinamethis
 
 ```
