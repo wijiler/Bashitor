@@ -4,14 +4,14 @@
 
 <h3 align="center"> ~/About </h3>
 
-<h4 align="center"> Basheditor automatically adds new lines to your bashrc config file in linux</h4>
+<h4 align="center"> Bashitor automatically adds new lines to your bashrc config file in linux</h4>
 
 -------------------------------------------------------------------------------------------------------
 
 ### *Example:*
 ```
 
-Basheditor -A -e neofetch
+Bashitor -A -e neofetch
 
 ```
 
