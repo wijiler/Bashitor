@@ -41,4 +41,4 @@ apt-get whateverinamethis
 
 ```
 
-####### was wondering why pacman wasn't working then I did pacman -Syu 81 things needed to get updated lmao
+<h7> was wondering why pacman wasn't working then I did pacman -Syu 81 things needed to get updated lmao </h7>
