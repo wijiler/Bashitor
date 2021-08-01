@@ -2,21 +2,20 @@
 #include <string.h>
 #include "warninglog.txt"
 
-
+    
     void info();
     void help();
-    void error();
-    void error404();
+    void error ();
 
 int main( int argc, char *argv[]) {
     
     if(argc == 0) {
-        error404();
+        error();
     }
     
     if (argc == 1)
     {
-        info();
+        error();
     }
 
     if (argc == 2)
@@ -38,10 +37,11 @@ int main( int argc, char *argv[]) {
     }
 
     void error() {
-        fprintf(stderr, "WARNING: invalid arguments or no arguments");
-    }
-
-    void error404() {
-        fprintf (stderr, "Something is not configured correct or bashitor is not in your $PATH please try echo $PATH to see if this is a path related problem");
+    FILE* error;
+    error = fopen("warninglog.txt", "r+");
+    
+    fprintf(error, "Somethings not right it errored");  
+    
+        fclose(error);
     }
 
