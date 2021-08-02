@@ -36,7 +36,7 @@ int main( int argc, char *argv[]) {
     }
 
     void error(FILE* error) {
-    error = fopen("warninglog.txt", "r+");
+    error = fopen("warninglog.txt", "w");
     
     fprintf(error, "Somethings not right it errored");  
     printf("Hello Bashitor here please do bashitor -h for more info\r\n");
