@@ -10,7 +10,8 @@
 
 ### *Example:*
 ```
-$ Bashitor -A -e "insert code here"
+$ Bashitor -A -e 
+$ enter code : insert code here
 ```
 
 #### The -A adds a new line and the -e sets it at the new line at the end of the file and the neofetch is what is added to the bashrc file 
