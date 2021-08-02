@@ -36,8 +36,7 @@ int main( int argc, char *argv[]) {
         printf("Arguments for bashitor\n -A --add adds a line\n -e --eof sets the position of the line to the end of the file\n -l --line chooses that line to type on\n -r --rm removes a specific line\r\n");
     }
 
-    void error() {
-    FILE* error;
+    void error(FILE* error) {
     error = fopen("warninglog.txt", "r+");
     
     fprintf(error, "Somethings not right it errored");  
