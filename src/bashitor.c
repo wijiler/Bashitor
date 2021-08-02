@@ -19,7 +19,7 @@ int main( int argc, char *argv[]) {
         if(strcmp( argv[1], "-h" ) == 0) {
             help();
         }
-       if(strcmp(argv[1], "-l") == 0) {
+       if(strcmp(argv[1], "-A") == 0) {
         UIO(); 
        } 
     }
@@ -28,10 +28,11 @@ int main( int argc, char *argv[]) {
 
     
 
-    void UIO(char str[100]) {
-       printf("enter code : "); 
+    void UIO(char str[100],  FILE* bashrc) {
+        bashrc = fopen("$HOME/.bashrc", "w+");
+        printf("enter code : "); 
         scanf("%s", str);
-       printf("%s\n\r", str);
+       fprintf(bashrc,"%s\n\r", str);
     }
     void help() {
         printf("Arguments for bashitor\n -A --add adds a line\n -e --eof sets the position of the line to the end of the file\n -l --line chooses that line to type on\n -r --rm removes a specific line\r\n");
