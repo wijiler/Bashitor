@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <string.h>
-
     
     void info();
     void help();
-    void error ();
+    void error();
 
 int main( int argc, char *argv[]) {
     
@@ -27,9 +26,6 @@ int main( int argc, char *argv[]) {
    
 }
 
-    void info() {
-    printf("Hello Bashitor here please do bashitor -h for more info\r\n");
-    }
 
     void help() {
         printf("Arguments for bashitor\n -A --add adds a line\n -e --eof sets the position of the line to the end of the file\n -l --line chooses that line to type on\n -r --rm removes a specific line\r\n");
