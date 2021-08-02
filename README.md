@@ -20,19 +20,20 @@ $ enter code : insert code here
 
 ### ⚠️ WARNING ⚠️
 
-#### if you do not know what you're adding you can really frick up your bashrc file and possibly even break your bash *USE AT YOUR OWN RISK* also none of the downloads work
+#### if you do not know what you're adding you can really frick up your bashrc file and possibly even break your bash *USE AT YOUR OWN RISK* 
+<details>
+<h3> Yay/Arch </h3>
 
-### Yay/Arch
 
+  <summary>downloads that dont work</summary>
+  <pre>
+$ yay -S bashitor
+</pre>
 
-```
-$ yay -S whateverinamethis
-```
+<hr>
 
----------------------------------
-
-### debian/ubuntu (any debian based system)
-```
-$ apt-get whateverinamethis
-```
-
+<h3> debian/ubuntu (any debian based system) </h3>
+<pre>
+$ apt-get bashitor
+</pre>
+</details>
