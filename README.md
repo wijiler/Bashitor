@@ -10,9 +10,7 @@
 
 ### *Example:*
 ```
-
-Bashitor -A -e neofetch
-
+$ Bashitor -A -e "insert code here"
 ```
 
 #### The -A adds a new line and the -e sets it at the new line at the end of the file and the neofetch is what is added to the bashrc file 
@@ -27,18 +25,13 @@ Bashitor -A -e neofetch
 
 
 ```
-
-yay -S whateverinamethis
-
+$ yay -S whateverinamethis
 ```
 
 ---------------------------------
 
 ### debian/ubuntu (any debian based system)
 ```
-
-apt-get whateverinamethis
-
+$ apt-get whateverinamethis
 ```
 
-<h7> was wondering why pacman wasn't working then I did pacman -Syu 81 things needed to get updated lmao </h7>
