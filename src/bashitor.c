@@ -31,7 +31,7 @@ int main( int argc, char *argv[]) {
     void UIO(char str[100]) {
        printf("enter code : "); 
         scanf("%s", str);
-       printf("test %s\n\r", str);
+       printf("%s\n\r", str);
     }
     void help() {
         printf("Arguments for bashitor\n -A --add adds a line\n -e --eof sets the position of the line to the end of the file\n -l --line chooses that line to type on\n -r --rm removes a specific line\r\n");
