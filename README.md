@@ -5,6 +5,7 @@
 <h3 align="center"> ~/About </h3>
 
 <h4 align="center"> Bashitor automatically adds new lines to your bashrc config file in linux</h4>
+<h1> I'm aware of an error in my code that makes this not work im trying to fix this</h1>
 
 -------------------------------------------------------------------------------------------------------
 
