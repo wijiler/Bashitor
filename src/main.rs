@@ -14,9 +14,17 @@ fn line() -> io::Result<()> {
     Ok(())
 }
 
+fn help() {
+    println!("-h\n show this help screen\n -l\n print to your bashrc\n");
+}
+
 fn main() {
    if std::env::args().nth(1).as_deref() == Some("-l") {
        line();
+   }else if std::env::args().nth(1).as_deref() == Some("-h") {
+       help();
+   }else {
+       help();
    }
 
 }
